@@ -8,7 +8,7 @@ app.secret_key = 'your-secret-key-here'  # Change this to a secure secret key in
 
 # Dummy user database - in a real app, this would be a proper database
 users = {
-    'demo': {'password': '12345', 'username': 'Venkat'}
+    'VenkatKutti': {'password': '12345', 'username': 'Venkat'}
 }
 
 def login_required(f):
